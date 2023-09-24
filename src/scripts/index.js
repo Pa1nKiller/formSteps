@@ -15,9 +15,9 @@ const answers = [
     {
         html: template(step1)({
             options: [
-                { title: 'частный дом', img: "./images/Questions/1/фото-1.jpg", value: 'частный дом' },
-                { title: 'панельный дом', img: "./images/Questions/1/фото-2.jpg", value: 'панельный дом1' },
-                { title: 'панельный дом', img: "./images/Questions/1/фото-3.jpg", value: 'панельный дом2' }
+                { title: 'частный дом', img: "./public/images/Questions/1/фото-1.jpg", value: 'частный дом' },
+                { title: 'панельный дом', img: "./public/images/Questions/1/фото-2.jpg", value: 'панельный дом1' },
+                { title: 'панельный дом', img: "./public/images/Questions/1/фото-3.jpg", value: 'панельный дом2' }
             ]
         }),
         title: `1. Укажите, пожалуйста, куда планируете ставить Окна?`,
