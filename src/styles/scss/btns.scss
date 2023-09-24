@@ -1,0 +1,39 @@
+.btns {
+    display: flex;
+    flex: 1 1 auto;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+
+    @media (max-width: 69.9375rem) {
+        margin-top: 0.625rem;
+    }
+    &__btn {
+        cursor: pointer;
+
+        border-radius: 4px;
+        background: #c0c3c5;
+        width: 10.3125rem;
+        height: 3.125rem;
+
+        color: #fff;
+        text-align: center;
+
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        letter-spacing: 0.0175rem;
+        text-transform: uppercase;
+
+        transition: all 0.4s ease-in-out;
+
+        &:hover {
+            color: #2a3135;
+            background: linear-gradient(90deg, #fec026 0%, #ffd52f 100%);
+        }
+        &:not(:first-child) {
+            margin-left: 1.875rem;
+        }
+    }
+}

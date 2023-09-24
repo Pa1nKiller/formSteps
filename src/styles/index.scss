@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Carlito:wght@700&family=Montserrat:wght@300;600&family=Open+Sans:wght@400;700;800&family=Roboto:wght@700&display=swap");
+
+/* ============================================================================================== */
+//@import "~normalize.css/normalize.css";
+@import "./scss/nullStyle.scss";
+//@import "./scss/rem-calc.scss";
+@import "./scss/globals.scss";
+@import "./scss/mixin.scss";
+@import "./scss/body.scss";
+
+@import "./scss/quiz.scss";
+@import "./scss/man.scss";
+
+@import "./scss/question.scss";
+@import "./scss/range.scss";
+@import "./scss/btns.scss";
+@import "./scss/bonus.scss";

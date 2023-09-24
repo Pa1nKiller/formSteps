@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>webpack starterkit</title>
+  <meta name="description" content="A light foundation for your next frontend project based on webpack.">
+
+</head>
+
+<body>
+  <div class="wrapper">
+    <main class="main">
+      <section class="quiz">
+        <div class="quiz__container">
+          <h1 class="quiz__title">
+            Получите предварительный просчет стоимости,
+          </h1>
+          <span class="quiz__sub-title">ответив на 6 простых вопросов за 1 минуту</span>
+          <div class="quiz__content content">
+            <div class="content__bonus bonus">
+              <div class="bonus__card card">
+                <h2 class="card__title">После расчёта<br>
+                  Вы получите:</h2>
+                <div class="card__items">
+                  <div class="card__item-bonus item-bonus">
+                    <p class="item-bonus__img-phon"><img src="./images/bonuses/business-and-finance 1.png" alt="bonus">
+                    <p class="item-bonus__text">Подарок ценой <br> <span class="text-bold">до 5 000 руб.</span><br>за
+                      ваши
+                      ответы</p>
+                    </p>
+                  </div>
+                  <div class="card__item-bonus item-bonus">
+                    <p class="item-bonus__img-phon">
+                      <img src="./images/bonuses/gift-box 1.png" alt="bonus">
+                    </p>
+                    <p class="item-bonus__text"> <span class="text-bold">3 варианта</span> <br>сметы по вашим параметрам
+                    </p>
+                  </div>
+                  <div class="card__item-bonus item-bonus">
+                    <p class="item-bonus__img-phon"><img src="./images/bonuses/estimation 1.png" alt="bonus">
+                    <p class="item-bonus__text"><span class="text-bold">30% скидка</span><br>на все варианты</p>
+                    </p>
+
+                  </div>
+                </div>
+                <p class="card__description">А также детальное описание всех типов окон и методы их применения.</p>
+              </div>
+            </div>
+            <div class="content__questions questions">
+              <div class="questions__progress-bar">
+                <h3 class="progress-bar__counter">Шаг <span id="current-step" class="current">1</span> из 7</h3>
+                <div class="progress-bar__sections">
+                  <p class="progress-bar__section"></p>
+                  <p class="progress-bar__section"></p>
+                  <p class="progress-bar__section"></p>
+                  <p class="progress-bar__section"></p>
+                  <p class="progress-bar__section"></p>
+                  <p class="progress-bar__section"></p>
+                  <p class="progress-bar__section"></p>
+                </div>
+              </div>
+              <h4 id="qestion-title" class="questions__title">1. Укажите, пожалуйста, куда планируете ставить Окна?</h4>
+              <div id="answers" class="questions__answers">
+              </div>
+
+            </div>
+            <div class="content__man man">
+              <div class="man__card">
+                <div class="man__speak">Для более точного расчета стоимости выберите вариант, который вам больше
+                  подходит по цене</div>
+                <div class="man__prof">Инженер - замерщик
+                  <div class="man__name">
+                    Алексей
+                  </div>
+                </div>
+                <img src="./images/man.png" alt="man" class="man__img">
+              </div>
+            </div>
+            <div id="error">Необходимо что-то выбрать!</div>
+          </div>
+          <div class="quiz__btns btns">
+            <button id="btn-back" class="btns__btn btn-back">назад</button>
+            <button id="btn-next" class="btns__btn btn-next">далее</button>
+          </div>
+
+        </div>
+      </section>
+    </main>
+
+  </div>
+</body>
+
+</html>

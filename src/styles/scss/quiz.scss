@@ -1,0 +1,51 @@
+#error {
+    color: red;
+    text-align: center;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 160%;
+    text-transform: uppercase;
+    margin-top: 0.625rem;
+    display: none;
+}
+
+.quiz {
+    @include adaptivValue("margin-top", 90, 40, 0);
+    &__container {
+        position: relative;
+
+        display: flex;
+        flex-direction: column;
+
+        min-height: 47.875rem;
+        border-radius: 0.625rem;
+        background-color: #fff;
+
+        box-shadow: 0 6px 20px 0 rgba(42, 49, 53, 0.12);
+        padding-bottom: 3.75rem;
+    }
+
+    &__title {
+        @include adaptivValue("padding-top", 50, 20, 0);
+
+        color: var(--black, #2a3135);
+        text-align: center;
+        @include adaptivValue("font-size", 30, 22, 0);
+        font-style: normal;
+        font-weight: 800;
+        line-height: 160%;
+        text-transform: uppercase;
+    }
+
+    &__sub-title {
+        display: block;
+        @include adaptivValue("font-size", 18, 16, 0);
+        font-weight: 600;
+        text-align: center;
+    }
+
+    &__content {
+        position: relative;
+    }
+}
